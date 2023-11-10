@@ -24,7 +24,14 @@ public interface On {
 	String ENTERPASSWORD = "#CustomerPassword";
 	String SIGNINBUTTON = "form[id='customer_login'] button[type='submit']"; 
     String WHATSAPP = "a[title='whatsapp'] span[class='social-sharing__title label']";
-	
+	String POTREVIEWS = "div[aria-label='Average rating is 4.80 stars']";
+	String FICUS = "div[class='product-title'] span";
+	String ZEROREVIEW= "div[class='title-wrapper center title-wrapper--no-margin'] h2[class='title h2']";
+	String WHATSAPPPAGETITLE = "._9vd5._9scb";
+	String NOSEARCHRESULTPAGE = "body > div:nth-child(33) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)";
+	String HOMEPAGE = "body > div:nth-child(35) > div:nth-child(3) > main:nth-child(1) > section:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > a:nth-child(2) > button:nth-child(1)";
+    String PLANTCARE = "body > div:nth-child(34) > div:nth-child(2) > sticky-header:nth-child(16) > header:nth-child(1) > nav:nth-child(3) > ul:nth-child(1) > li:nth-child(4) > menu-dropdown:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
 }
+
 
 

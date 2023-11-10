@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Tests.KeywordTestCases">
+      <class name="runner.FeatureRunner">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="setUpClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.Tests.KeywordTestCases -->
+      </class> <!-- runner.FeatureRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
