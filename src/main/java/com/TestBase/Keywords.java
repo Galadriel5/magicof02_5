@@ -13,22 +13,22 @@ public class Keywords {
     
 	public WebElement getWebElement(String locatorType, String locatorValue) {
 		if (locatorType.equalsIgnoreCase("id")) {
-			return Hooks1.driver.findElement(By.id(locatorValue));
+			return base.driver.findElement(By.id(locatorValue));
 		} else if (locatorType.equalsIgnoreCase("xpath")) {
-			return Hooks1.driver.findElement(By.xpath(locatorValue));
+			return base.driver.findElement(By.xpath(locatorValue));
 		} else if (locatorType.equalsIgnoreCase("css")) {
-			return Hooks1.driver.findElement(By.cssSelector(locatorValue));
+			return base.driver.findElement(By.cssSelector(locatorValue));
 		} else
 			return null;
 	}
 
 	public List<WebElement> getWebElements(String locatorType, String locatorValue) {
 		if (locatorType.equalsIgnoreCase("id")) {
-			return Hooks1.driver.findElements(By.id(locatorValue));
+			return base.driver.findElements(By.id(locatorValue));
 		} else if (locatorType.equalsIgnoreCase("xpath")) {
-			return Hooks1.driver.findElements(By.xpath(locatorValue));
+			return base.driver.findElements(By.xpath(locatorValue));
 		} else if (locatorType.equalsIgnoreCase("css")) {
-			return Hooks1.driver.findElements(By.cssSelector(locatorValue));
+			return base.driver.findElements(By.cssSelector(locatorValue));
 		} else
 			return null;
 	}
@@ -54,11 +54,11 @@ public class Keywords {
 	}
 
 	public void launchUrl(String url) {
-		Hooks1.driver.get(url);
+		base.driver.get(url);
 	}
 	
 	public void maximize(RemoteWebDriver driver) {
-		Hooks1.driver.manage().window().maximize();
+		base.driver.manage().window().maximize();
 
 	}
 }

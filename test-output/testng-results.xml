@@ -1,79 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+<testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T18:52:09 IST" name="Default suite" finished-at="2023-11-10T18:52:10 IST" duration-ms="871">
+  <suite started-at="2023-11-12T09:29:58 IST" name="Default suite" finished-at="2023-11-12T09:30:01 IST" duration-ms="3048">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-11-10T18:52:09 IST" name="Default test" finished-at="2023-11-10T18:52:10 IST" duration-ms="871">
+    <test started-at="2023-11-12T09:29:58 IST" name="Default test" finished-at="2023-11-12T09:30:01 IST" duration-ms="3048">
       <class name="runner.FeatureRunner">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="setUp" finished-at="2023-11-10T18:52:10 IST" duration-ms="138" status="FAIL">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="setUpClass" finished-at="2023-11-10T18:52:10 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:29:58 IST" name="setUpClass" finished-at="2023-11-12T09:29:59 IST" duration-ms="778" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@452c8a40]]>
+                <![CDATA[org.testng.TestRunner@1dab9dd6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:29:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:00 IST" duration-ms="948" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -86,58 +34,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.click(Keywords.java:45)
+at com.definitions.KeywordTestStepDefinition.checkReviewsForCeramicPot(KeywordTestStepDefinition.java:27)
+at ✽.ചെക്ക് review(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/Review.feature:5)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:00 IST" duration-ms="36" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -150,58 +63,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.enterText(Keywords.java:41)
+at com.definitions.KeywordTestStepDefinition.searchForMarjoramSeeds(KeywordTestStepDefinition.java:48)
+at ✽.Marjoram Seeds(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/Review.feature:8)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:00 IST" duration-ms="157" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -214,58 +92,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.click(Keywords.java:45)
+at com.definitions.KeywordTestStepDefinition.clickOnSignInToYourAccount(KeywordTestStepDefinition.java:79)
+at ✽.തിരഞ്ഞെടുക്കുക Sign in(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/SignIn.feature:4)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:00 IST" duration-ms="37" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -278,58 +121,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.enterText(Keywords.java:41)
+at com.definitions.KeywordTestStepDefinition.searchForParticularItemsViaSearchBox(KeywordTestStepDefinition.java:36)
+at ✽.ഇനത്തിനായി തിരയുക(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/SpecificSearch.feature:4)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:01 IST" duration-ms="40" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -342,58 +150,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.click(Keywords.java:45)
+at com.definitions.KeywordTestStepDefinition.enteringInvalidEntriesInSearchbox(KeywordTestStepDefinition.java:66)
+at ✽.അസാധുവാണ് Product അഥവാ Category(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/SpecificSearch.feature:8)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:01 IST" duration-ms="51" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -406,58 +179,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.click(Keywords.java:45)
+at com.definitions.KeywordTestStepDefinition.integrationTestingForWhatsapp(KeywordTestStepDefinition.java:98)
+at ✽.ചെക്ക് whatsapp(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/SpecificSearch.feature:12)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-12T09:30:01 IST" duration-ms="171" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -470,38 +208,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[An unexpected error occurred in selectPlantCare method.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: chromedriver located at path/to/chromedriver.exe, but invalid
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
-at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at runner.FeatureRunner.setUp(FeatureRunner.java:21)
+              <![CDATA[java.lang.RuntimeException: An unexpected error occurred in selectPlantCare method.
+at com.definitions.KeywordTestStepDefinition.selectPlantCare(KeywordTestStepDefinition.java:116)
+at ✽.Plant Care(file:///C:/Users/asus/eclipse-workspace/com.magicofo2/src/test/resources/com/features/SpecificSearch.feature:16)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.findElement(org.openqa.selenium.By)" because "com.TestBase.Hooks1.driver" is null
+at com.TestBase.Keywords.getWebElement(Keywords.java:20)
+at com.TestBase.Keywords.click(Keywords.java:45)
+at com.definitions.KeywordTestStepDefinition.selectPlantCare(KeywordTestStepDefinition.java:112)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -517,18 +272,14 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="tearDownClass" finished-at="2023-11-10T18:52:10 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.FeatureRunner@2e6a5539]" started-at="2023-11-12T09:30:01 IST" name="tearDownClass" finished-at="2023-11-12T09:30:01 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.FeatureRunner@12f9af83]" started-at="2023-11-10T18:52:10 IST" name="tearDown" finished-at="2023-11-10T18:52:10 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- runner.FeatureRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -42,11 +42,14 @@ public class BlogPage {
 	public void selectBlogForTree() {
 		bloglink.click();
 		searchBlog.sendKeys("Cassia Fistula");
+	}
+	public void verifyTree() {
 		cassiaFistula.click();
 		String expectedTitle = "Tree saga: Cassia fistula, The Golden Shower Tree (Amaltas)";
 		String actualTitle = cassiaFistulaTitle.getText();
 		softly.assertEquals(actualTitle, expectedTitle, "Page title doesn't match expected title");
 	}
+		
 
 	public void viewAll() {
 		viewAll.click();
@@ -58,6 +61,9 @@ public class BlogPage {
 	public void checkLink() {
 		gardernersGuide.click();
 		pottingMix.click();
+	}
+	
+	public void verifyLink() {
 		String expectedTitle = "Cactus & Succulent Potting Mix - 5 kg";
 		String actualTitle = cactusMix.getText();
 		softly.assertEquals(actualTitle, expectedTitle, "Page title doesn't match expected title");
@@ -65,6 +71,8 @@ public class BlogPage {
 
 	public void incorrectSearch() {
 		searchBlog.sendKeys("1234567");
+	}
+	public void verifySearch() {
 		String expectedTitle = "No results found for “1234567” Check the spelling or use a different word or phrase";
 		String actualTitle = noresultPage.getText();
 		softly.assertEquals(actualTitle, expectedTitle, "Page title doesn't match expected title");

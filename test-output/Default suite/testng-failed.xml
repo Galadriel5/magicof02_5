@@ -6,10 +6,8 @@
       <class name="runner.FeatureRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="runScenario"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6"/>
         </methods>
       </class> <!-- runner.FeatureRunner -->
     </classes>

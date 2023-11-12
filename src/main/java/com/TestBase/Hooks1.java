@@ -59,7 +59,7 @@ public class Hooks1 {
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.get(prop.getProperty("app.url"));
 	}
 
@@ -73,7 +73,7 @@ public class Hooks1 {
 	            BufferedImage img = ashot.shootingStrategy(ShootingStrategies.viewportPasting(3000))
 	                    .takeScreenshot(Hooks1.getDriver()).getImage();
 	            String baseDir = System.getProperty("user.dir");
-	            ImageIO.write(img, "png", new File(baseDir + "/src/test/resources/com/" + screenshotFileName + ".png"));
+	            ImageIO.write(img, "png", new File(baseDir + "/src/log/" + screenshotFileName + ".png"));
 	        }
 	    } catch (IOException e) {
 	        e.printStackTrace();
